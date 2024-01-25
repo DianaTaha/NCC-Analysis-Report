@@ -43,10 +43,10 @@ A star schema was relationship between the necessary tables
 - Linear Regression Formula: X=(-722.14-Y)/0.01
 - Created Regretion table
 - Created Income Buckets "Image Below"
-- 
-| Income Range  | Regression table content |
+  
+| Income Range  | Regression table |
 | ------------- | ------------- |
-  ![income range dax formula](https://github.com/DianaTaha/NCC-Analysis-Report/assets/157681412/29266bc9-9f28-47bb-9b2a-2614a79ec225) | <img width="213" alt="Screenshot 2024-01-25 at 2 19 20 PM" src="https://github.com/DianaTaha/NCC-Analysis-Report/assets/157681412/d3afa6ed-5f99-41d4-83d8-ac897b343c01">
+  ![income range dax formula](https://github.com/DianaTaha/NCC-Analysis-Report/assets/157681412/29266bc9-9f28-47bb-9b2a-2614a79ec225) | ![Screenshot 2024-01-25 201635](https://github.com/DianaTaha/NCC-Analysis-Report/assets/157681412/4461b2cd-dd0a-4e14-9be4-0d897905420c)
 
 # Analysis & Visualization
 The report can be accessed [Here](https://app.powerbi.com/view?r=eyJrIjoiMjZkMjYzYmMtYzBmYy00ZWU5LWI1NjctYjY2NDEzZGE1Y2VhIiwidCI6ImE0YmE3MmNhLWFjNjMtNGRlNS04OTA2LThjNjY5OTg2N2UzYyJ9)
@@ -58,7 +58,7 @@ The report can be accessed [Here](https://app.powerbi.com/view?r=eyJrIjoiMjZkMjY
 # Findings
 
 ### What is the correlation (R2 value) between sales and income?
-	There is a positive Correlation value between Sales is 0.78 as per “Average income VS average sales scatter plot”.
+	There is a positive correlation value between Sales 0.78 as per the “Average income VS average sales scatter plot”.
  
 ### What is the correlation (R2 value) between customer ratings and product return rate?
 	There is a strong Negative Correlation with a value of 0.69 between customer ratings and product returns as per “the relationship between return rate and rating” scatter plot. 
@@ -67,14 +67,14 @@ The report can be accessed [Here](https://app.powerbi.com/view?r=eyJrIjoiMjZkMjY
 Linear Regression Formula: X=(-722.14-Y)/0.01
 
 ### Which customer do you predict has the highest income?
-The predicted Customer with highest income is “Jon Little” As per the Card visual representing the below formula:
+The predicted Customer with the highest income is “Jon Little” As per the Card visual representing the below formula:
 Highest Cx income = LOOKUPVALUE('Customer List'[Full name],'Customer List'[Predict Cx income],MAX('Customer List'[Predict Cx income]))
 
 ### Which product will be advertised the most?
-- As per the analysis an average of 81% of the client’s income range is low and average as per “Predicted income range column chart”
-- I recommend advertising the most: $25 spring tshirt &  $100 Cotton sweater according to the season of the year.
-- For the $1,000 leather bag it can be advertised in highest income state as it falls in the luxury category.
-- There are low sales in some of the high income states ex: District of Columbia, New Jersey, Maryland, Massachusetts and Hawaii in comparison with California, as per the “state,last 6 months purchase,  income” table.
+- As per the analysis an average of 81% of the client’s income range is low and average as per the “Predicted income range column chart”
+- I recommend advertising the most: a $25 spring t-shirt &  $100 Cotton sweater according to the season of the year.
+- For the $1,000 leather bag it can be advertised in the highest income state as it falls in the luxury category.
+- There are low sales in some of the high-income states ex: the District of Columbia, New Jersey, Maryland, Massachusetts, and Hawaii in comparison with California, as per the “state, last 6 months purchase,  income” table.
 - There is an opportunity to market these products in those states.
-- Majority of clients based on the last 6 month purchase are born between 1960-2000 as per “Last 6 month purchase by age group” donut chart
+- Majority of clients based on the last 6-month purchase are born between 1960-2000 as per the “Last 6-month purchase by age group” donut chart
 
