@@ -78,7 +78,3 @@ Highest Cx income = LOOKUPVALUE('Customer List'[Full name],'Customer List'[Predi
 - There is an opportunity to market these products in those states.
 - Majority of clients based on the last 6 month purchase are born between 1960-2000 as per “Last 6 month purchase by age group” donut chart
 
- 
-
-
-# NCC-Analysis-Report
